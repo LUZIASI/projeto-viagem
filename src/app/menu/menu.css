@@ -1,0 +1,48 @@
+ 
+  
+  *{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif /* Nome da font*/ ;
+  }
+  
+  *{
+      padding: 0%;
+      margin: 0%;
+  }
+ body{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  li a{
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      padding: 50px;
+  }
+  ul{
+      display: flex;
+      flex-direction: row;
+  }
+  li{
+      list-style: none;
+  }
+  nav{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  }
+    .botao{
+      background-color:#EB662B;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      border-radius: 20px;
+      width: 120px;
+      border: none;
+  }
+  .home{
+      display: flex;
+      align-items: center;
+  }
+  
